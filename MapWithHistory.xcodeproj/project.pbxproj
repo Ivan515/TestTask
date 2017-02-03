@@ -8,22 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		45BE725F1E41327D00A8C480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE725E1E41327D00A8C480 /* AppDelegate.swift */; };
-		45BE72611E41327D00A8C480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE72601E41327D00A8C480 /* ViewController.swift */; };
+		45BE72611E41327D00A8C480 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE72601E41327D00A8C480 /* MapViewController.swift */; };
 		45BE72641E41327D00A8C480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE72621E41327D00A8C480 /* Main.storyboard */; };
 		45BE72671E41327D00A8C480 /* MapWithHistory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45BE72651E41327D00A8C480 /* MapWithHistory.xcdatamodeld */; };
 		45BE72691E41327D00A8C480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BE72681E41327D00A8C480 /* Assets.xcassets */; };
 		45BE726C1E41327D00A8C480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE726A1E41327D00A8C480 /* LaunchScreen.storyboard */; };
+		45BE72781E43CA9100A8C480 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE72771E43CA9100A8C480 /* HistoryVC.swift */; };
+		45BE727B1E43D0D000A8C480 /* ObjectRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE727A1E43D0D000A8C480 /* ObjectRequest.swift */; };
+		45BE727E1E44AEBC00A8C480 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE727D1E44AEBC00A8C480 /* CustomCell.swift */; };
+		AFBD2F3E6CCD2E26A630EE56 /* Pods_MapWithHistory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1185F4620A55A864E53D825 /* Pods_MapWithHistory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2239A94E754286D6A9EB9610 /* Pods-MapWithHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWithHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory.release.xcconfig"; sourceTree = "<group>"; };
+		3A18C4A0E06C6C77571D5C50 /* Pods-MapWithHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWithHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory.debug.xcconfig"; sourceTree = "<group>"; };
 		45BE725B1E41327D00A8C480 /* MapWithHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapWithHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BE725E1E41327D00A8C480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45BE72601E41327D00A8C480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45BE72601E41327D00A8C480 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		45BE72631E41327D00A8C480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45BE72661E41327D00A8C480 /* MapWithHistory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapWithHistory.xcdatamodel; sourceTree = "<group>"; };
 		45BE72681E41327D00A8C480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BE726B1E41327D00A8C480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45BE726D1E41327D00A8C480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BE72731E41FEF900A8C480 /* MapWithHistory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapWithHistory-Bridging-Header.h"; sourceTree = "<group>"; };
+		45BE72771E43CA9100A8C480 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		45BE727A1E43D0D000A8C480 /* ObjectRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectRequest.swift; sourceTree = "<group>"; };
+		45BE727D1E44AEBC00A8C480 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D1185F4620A55A864E53D825 /* Pods_MapWithHistory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWithHistory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBD2F3E6CCD2E26A630EE56 /* Pods_MapWithHistory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,9 @@
 			children = (
 				45BE725D1E41327D00A8C480 /* MapWithHistory */,
 				45BE725C1E41327D00A8C480 /* Products */,
+				B5CA7B017A04EE427E9D235C /* Pods */,
+				7887C90BAE7B33C4BC22C4B9 /* Frameworks */,
+				45BE72731E41FEF900A8C480 /* MapWithHistory-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,59 @@
 		45BE725D1E41327D00A8C480 /* MapWithHistory */ = {
 			isa = PBXGroup;
 			children = (
-				45BE725E1E41327D00A8C480 /* AppDelegate.swift */,
-				45BE72601E41327D00A8C480 /* ViewController.swift */,
+				45BE727C1E44AEA000A8C480 /* Custom */,
+				45BE72791E43D01300A8C480 /* ObjectModel */,
+				45BE72761E422E8400A8C480 /* VC */,
 				45BE72621E41327D00A8C480 /* Main.storyboard */,
 				45BE72681E41327D00A8C480 /* Assets.xcassets */,
 				45BE726A1E41327D00A8C480 /* LaunchScreen.storyboard */,
 				45BE726D1E41327D00A8C480 /* Info.plist */,
+				45BE725E1E41327D00A8C480 /* AppDelegate.swift */,
 				45BE72651E41327D00A8C480 /* MapWithHistory.xcdatamodeld */,
 			);
 			path = MapWithHistory;
+			sourceTree = "<group>";
+		};
+		45BE72761E422E8400A8C480 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				45BE72601E41327D00A8C480 /* MapViewController.swift */,
+				45BE72771E43CA9100A8C480 /* HistoryVC.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		45BE72791E43D01300A8C480 /* ObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				45BE727A1E43D0D000A8C480 /* ObjectRequest.swift */,
+			);
+			name = ObjectModel;
+			sourceTree = "<group>";
+		};
+		45BE727C1E44AEA000A8C480 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				45BE727D1E44AEBC00A8C480 /* CustomCell.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		7887C90BAE7B33C4BC22C4B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1185F4620A55A864E53D825 /* Pods_MapWithHistory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CA7B017A04EE427E9D235C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A18C4A0E06C6C77571D5C50 /* Pods-MapWithHistory.debug.xcconfig */,
+				2239A94E754286D6A9EB9610 /* Pods-MapWithHistory.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45BE72701E41327D00A8C480 /* Build configuration list for PBXNativeTarget "MapWithHistory" */;
 			buildPhases = (
+				E5ACF99E4CD91720BD4CEA45 /* [CP] Check Pods Manifest.lock */,
 				45BE72571E41327D00A8C480 /* Sources */,
 				45BE72581E41327D00A8C480 /* Frameworks */,
 				45BE72591E41327D00A8C480 /* Resources */,
+				46AFDC6F58EBB8ECA4029C54 /* [CP] Embed Pods Frameworks */,
+				04B0FAB8B28B9725D8B596E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +162,7 @@
 					45BE725A1E41327D00A8C480 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 66ZKZ9JAS2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,13 +198,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04B0FAB8B28B9725D8B596E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AFDC6F58EBB8ECA4029C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5ACF99E4CD91720BD4CEA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45BE72571E41327D00A8C480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BE72611E41327D00A8C480 /* ViewController.swift in Sources */,
+				45BE72611E41327D00A8C480 /* MapViewController.swift in Sources */,
+				45BE72781E43CA9100A8C480 /* HistoryVC.swift in Sources */,
 				45BE725F1E41327D00A8C480 /* AppDelegate.swift in Sources */,
+				45BE727B1E43D0D000A8C480 /* ObjectRequest.swift in Sources */,
+				45BE727E1E44AEBC00A8C480 /* CustomCell.swift in Sources */,
 				45BE72671E41327D00A8C480 /* MapWithHistory.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,26 +377,105 @@
 		};
 		45BE72711E41327D00A8C480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A18C4A0E06C6C77571D5C50 /* Pods-MapWithHistory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 66ZKZ9JAS2;
 				INFOPLIST_FILE = MapWithHistory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Apet.MapWithHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapWithHistory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		45BE72721E41327D00A8C480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2239A94E754286D6A9EB9610 /* Pods-MapWithHistory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 66ZKZ9JAS2;
 				INFOPLIST_FILE = MapWithHistory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Apet.MapWithHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MapWithHistory-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +499,7 @@
 				45BE72721E41327D00A8C480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
