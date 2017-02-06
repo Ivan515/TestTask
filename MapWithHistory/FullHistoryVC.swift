@@ -29,6 +29,10 @@ class FullHistoryVC: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    override func loadView() {
+        super.loadView()
+    }
+    
     @IBAction func doneBtn(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
