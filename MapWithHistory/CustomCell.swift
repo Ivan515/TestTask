@@ -10,7 +10,6 @@ import UIKit
 
 class CustomCell: UITableViewCell {
     
-    
     @IBOutlet weak var dateInCell: UILabel!
     @IBOutlet weak var timeInCell: UILabel!
     @IBOutlet weak var cityInCell: UILabel!
@@ -19,13 +18,10 @@ class CustomCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }

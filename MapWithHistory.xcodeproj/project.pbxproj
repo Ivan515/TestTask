@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451E5B941E475681002786B3 /* FullHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451E5B931E475681002786B3 /* FullHistoryVC.swift */; };
 		45BE725F1E41327D00A8C480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE725E1E41327D00A8C480 /* AppDelegate.swift */; };
 		45BE72611E41327D00A8C480 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE72601E41327D00A8C480 /* MapViewController.swift */; };
 		45BE72641E41327D00A8C480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BE72621E41327D00A8C480 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		2239A94E754286D6A9EB9610 /* Pods-MapWithHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWithHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory.release.xcconfig"; sourceTree = "<group>"; };
 		3A18C4A0E06C6C77571D5C50 /* Pods-MapWithHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWithHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapWithHistory/Pods-MapWithHistory.debug.xcconfig"; sourceTree = "<group>"; };
+		451E5B931E475681002786B3 /* FullHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullHistoryVC.swift; sourceTree = "<group>"; };
 		45BE725B1E41327D00A8C480 /* MapWithHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapWithHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BE725E1E41327D00A8C480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BE72601E41327D00A8C480 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				45BE72601E41327D00A8C480 /* MapViewController.swift */,
 				45BE72771E43CA9100A8C480 /* HistoryVC.swift */,
+				451E5B931E475681002786B3 /* FullHistoryVC.swift */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				45BE72611E41327D00A8C480 /* MapViewController.swift in Sources */,
 				45BE72781E43CA9100A8C480 /* HistoryVC.swift in Sources */,
 				45BE725F1E41327D00A8C480 /* AppDelegate.swift in Sources */,
+				451E5B941E475681002786B3 /* FullHistoryVC.swift in Sources */,
 				45BE727B1E43D0D000A8C480 /* ObjectRequest.swift in Sources */,
 				45BE727E1E44AEBC00A8C480 /* CustomCell.swift in Sources */,
 				45BE72671E41327D00A8C480 /* MapWithHistory.xcdatamodeld in Sources */,

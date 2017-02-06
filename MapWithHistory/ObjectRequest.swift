@@ -11,11 +11,12 @@ import RealmSwift
 
 class ObjectRequest: Object {
     
-    var addressString = ""
-    var coordinateLatitudeForUser = 0.0
-    var coordinateLongitudeForUser = 0.0
-    var temperatureForUser = 0
-    var forecastForUser = ""
-    var dateOfRequest = Date()
+    dynamic var addressString = ""
+    dynamic var town = ""
+    dynamic var coordinateLatitudeForUser = 0.0
+    dynamic var coordinateLongitudeForUser = 0.0
+    dynamic var temperatureForUser = 0
+    dynamic var forecastForUser = ""
+    dynamic var dateOfRequest = Date()
 
 }

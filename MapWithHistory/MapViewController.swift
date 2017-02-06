@@ -23,7 +23,8 @@ class MapViewController: UIViewController {
     var addressString = ""
     var temperatureForUser = 0
     var forecastForUser = ""
-
+    var town = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.locationManager.delegate = self
@@ -41,6 +42,7 @@ class MapViewController: UIViewController {
             if let address = respone?.firstResult() {
                 let lines = address.lines as [String]!
                 self.addressString = (lines?.joined(separator: "\n\t"))!
+                self.town = address.locality!
                 UIView.animate(withDuration: 0.25, animations: { self.view.layoutIfNeeded() })
             }
         }
@@ -56,14 +58,6 @@ class MapViewController: UIViewController {
         
         self.temperatureForUser = temp - 273//kelvin in celsius
         self.forecastForUser = forecast
-    }
-    
-    func queryRequsets() {
-        let realm = try! Realm()
-        let allReauests = realm.objects(ObjectRequest.self)
-        for req in allReauests {
-            print("\(req.coordinateLatitudeForUser) and \(req.dateOfRequest)")
-        }
     }
     
 }
@@ -105,6 +99,7 @@ extension MapViewController: GMSMapViewDelegate {
         marker.map = self.mapView
         
         tapRequest.addressString = self.addressString
+        tapRequest.town = self.town
         tapRequest.coordinateLatitudeForUser = coordinate.latitude 
         tapRequest.coordinateLongitudeForUser = coordinate.longitude
         tapRequest.temperatureForUser = self.temperatureForUser
